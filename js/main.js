@@ -27,6 +27,12 @@ $(window).on('load', function() {
 
 (function($) {
 
+	document.querySelectorAll('.set-bg').forEach(el => {
+		const bg = el.getAttribute('data-setbg');
+		el.style.backgroundImage = `url(${bg})`;
+	  });
+	  
+
 	/*------------------
 		Navigation
 	--------------------*/
