@@ -1,0 +1,9 @@
+html, body {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}

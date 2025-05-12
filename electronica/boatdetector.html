@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>misaa - Boat Detector</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Matías Serrano Acevedo - Sonido, Arte & Tecnología">
+  <meta name="keywords" content="portfolio, riddle, onepage, creative, html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link href="/img/favicon.ico" rel="shortcut icon"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i,700" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="/css/magnific-popup.css"/>
+  <link rel="stylesheet" href="/css/style.css"/>
+
+
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  <!-- Page Preloder -->
+  <div id="preloder">
+    <div class="loader"></div>
+  </div>
+
+  <!-- header section start -->
+  <header class="header-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-3">
+          <div class="logo">
+            <h2 class="site-logo">Matías Serrano Acevedo</h2>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-9">
+          <!--					<a href="" class="site-btn header-btn">Get in touch</a>-->
+          <nav class="main-menu">
+            <ul>
+              <li><a href="/home.html">Home</a></li>
+              <li><a href="/music.html">Publicaciones/Música</a></li>
+              <li><a href="/arte.html">Arte/Proyectos</a></li>
+              <li><a href="/electronica.html">Electrónica</a></li>
+              <li><a href="/cv.html">CV</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="nav-switch">
+      <i class="fa fa-bars"></i>
+    </div>
+  </header>
+  <!-- header section end -->
+
+
+
+
+  <!-- portfolio section start -->
+
+  <div class="container pt-3">
+
+    <div class="row">
+
+      <!-- Post Content Column -->
+      <div class="col-lg-5 col-md-5">
+
+        <!-- Title -->
+        <h1 class="col-lg-12">Boat Detector</h1>
+
+        <!-- Author -->
+        <!--
+        <p class="lead">
+        by
+        <a href="#">Start Bootstrap</a>
+      </p>
+    -->
+
+    <hr>
+
+    <!-- Date/Time -->
+    <p>2020</p>
+
+    <hr>
+
+    <!-- Preview Image -->
+    <img class="img-fluid rounded" src="/img/electronica/boatdetector_pcb.jpg" alt="">
+
+    <hr>
+
+    <!-- CREDITOS/INFORMACION BASICA -->
+    <p>
+      HidroAqus corresponde a un dispositivo que recibe señal del hidrófono <a href="https://www.aquarianaudio.com/h2a-xlr-hydrophone.html">Aquarian Audio h2a-XLR</a>, y
+      entrega la detección de presencia a través del cruce de un umbral de intensidad, lo que permitiría
+      identificar la aparición de fuentes sonoras de alto nivel, y avisar esto a su salida.
+    </p>
+
+    <p>Incluye amplio control de ganancia (hasta 1000 veces), control de nivel umbral de detección, tiempo
+      de detección, salida directa para conectar sonómetro, salida de audio, y la posibilidad de conectar una
+      pantalla LCD 16x02 para obtener información de la entrada. Todo es procesado por un
+      microcontrolador Arduino Nano, de bajo costo y tamaño.</p>
+
+      <p>Documentación cerrada, con esquemático modificado a partir del módulo <a href="/electronica/boatdetector/sound-detector.pdf">Sound Detector</a> de Sparkfun, para ser acoplado al hidrófono en XLR.
+
+      </p>
+
+      <span>Código por Vicente Espinoza</span>
+      <br>
+      <span>Estudio acústico por Carla Badani</span>
+
+
+
+      <hr>
+
+
+
+
+    </div>
+
+    <!-- Sidebar Widgets Column -->
+    <div class="col-lg-7 col-md-4 pt-4">
+
+
+
+
+
+      <hr>
+
+
+      <h4>Especificaciones:</h4>
+      <hr>
+
+
+
+
+      <div class="buttons">
+        <button class="site-btn btn-line mr-4 mb-4 col-lg-12 col-md-8">
+
+          <p>Diseñado para hidrófono Aquarian Audio h2a-XLR</p>
+          <p>Control de umbral de detección (0 a 5V)</p>
+          <p>Control de tiempo de detección (10 ms a 10 seg por defecto)</p>
+          <p>Control de ganancia de 1 a 1000 veces</p>
+          <p>Salida directa jack 1⁄4” para sonómetro (buffered)</p>
+          <p>Salida de audio minijack 1⁄8”</p>
+          <p>Salida de nivel rectificada (unbuffered)</p>
+          <p>Conversor análogo-digital ADS1115, de bajo coste</p>
+          <p>Conexión a pantalla LCD 16x02 a través de bus i2c que muestra tamaño de muestra de entrada
+            (en samples y volts), nivel de umbral y tiempo de detección</p>
+            <p>Microcontrolador Arduino de bajo coste
+              pAlimentación 7-12V</p>
+
+            </button>
+
+            <container>
+
+              <row><img class="img-fluid rounded" src="/img/electronica/boatdetector_flow.png" alt=""></row>
+
+              <hr>
+
+              <row>
+
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/aHgaYBZd6Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </row>
+
+
+
+            </container>
+
+
+          </div>
+
+          <!-- <hr>
+
+          <h4>Documentación</h4>
+
+          <hr>
+
+          <a href="/docs/blackface_pcb.pdf" target="_blank" class="site-btn">PCB</a>
+
+          <a href="/docs/blackface_sch.pdf" target="_blank" class="site-btn">Esquemático</a>
+
+
+
+          <hr>
+ -->
+
+
+
+          <hr>
+
+
+
+
+          <!--          BANDCAMP-->
+
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+
+    <!-- portfolio section end -->
+
+
+
+
+    <!-- footer section start -->
+    <footer class="footer-section text-center p-3">
+      <div class="container">
+        <div class="social-links p-">
+          <a href="https://www.linkedin.com/in/mserranoacevedo/"><span class="fa fa-linkedin"></span></a>
+          <a href="https://www.instagram.com/misaa.cc"><span class="fa fa-instagram"></span></a>
+          <a href="https://www.facebook.com/misa.ambient"><span class="fa fa-facebook"></span></a>
+          <a href="https://open.spotify.com/artist/4tjaXiJH0B7OFA08tLMqi0"><span class="fa fa-spotify"></span></a>
+          <a href="https://www.youtube.com/channel/UCziqGwEdPRTKixvcAt1owWw"><span class="fa fa-youtube"></span></a>
+        </div>
+        <div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+
+
+
+    <!--====== Javascripts & Jquery ======-->
+    <script src="/js/jquery-2.1.4.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/mixitup.min.js"></script>
+    <!--	<script src="/js/magnific-popup.min.js"></script>-->
+    <script src="/js/main.js"></script>
+  </body>
+  </html>
