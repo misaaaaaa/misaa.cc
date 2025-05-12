@@ -3585,7 +3585,7 @@
                     },
                     {
                       'name': 'alt',
-                      'description': '<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img#Attributes">alternate text</a> to be used if image does not load. You can use also an empty string (<code>""</code>) if that an image is not intended to be viewed.</p>\n',
+                      'description': '<p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element./img#Attributes">alternate text</a> to be used if image does not load. You can use also an empty string (<code>""</code>) if that an image is not intended to be viewed.</p>\n',
                       'type': 'String'
                     }
                   ]
@@ -70465,12 +70465,12 @@
  *
  * @method createImg
  * @param  {String} src src path or url for image
- * @param  {String} alt <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Img#Attributes">alternate text</a> to be used if image does not load. You can use also an empty string (`""`) if that an image is not intended to be viewed.
+ * @param  {String} alt <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element./img#Attributes">alternate text</a> to be used if image does not load. You can use also an empty string (`""`) if that an image is not intended to be viewed.
  * @return {p5.Element} pointer to <a href="#/p5.Element">p5.Element</a> holding created node
  * @example
  *  <div><code>
  * let img = createImg(
- *   'https://p5js.org/assets/img/asterisk-01.png',
+ *   'https://p5js.org/assets./img/asterisk-01.png',
  *   'the p5 magenta asterisk'
  * );
  * img.position(0, -10);
@@ -78550,7 +78550,7 @@
  * "source image" dimensions can be useful when you want to display a
  * subsection of the source image instead of the whole thing. Here's a diagram
  * to explain further:
- * <img src="assets/drawImage.png"></img>
+ * <img src="assets/drawImage.png"><./img>
  *
  * This function can also be used to draw images without distorting the orginal aspect ratio,
  * by adding 9th parameter, fit, which can either be COVER or CONTAIN.
