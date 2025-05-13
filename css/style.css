@@ -925,23 +925,30 @@ ol {
 }
 
 .custom-banner .pi-inner {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.3); /* opcional */
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-.custom-banner .pi-inner h2 {
+  opacity: 0;
   font-size: 30px;
   font-weight: 400;
-  letter-spacing: 2px;
-  margin: 0;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  color: #fff;
+  letter-spacing: 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+
 }
+
+.custom-banner:hover .pi-inner {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.custom-banner:hover .pi-inner h2 {
+  opacity: 1;
+  letter-spacing: 0;
+}
+
+
 
 
 /* El banner (aspect ratio 3:1 o el que prefieras) */
@@ -962,21 +969,6 @@ ol {
   background-position: center;
   position: relative;
   margin-bottom: 20px;
-}
-
-/* Contenido interno */
-.pi-inner {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.3); /* opcional */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
 }
 
 /* Fondo con imagen cargada vía JS o atributo */
@@ -1000,17 +992,4 @@ ol {
   width: 100%;
   position: relative;
   margin-bottom: 20px;
-}
-
-/* Interior con texto centrado */
-.pi-inner {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.3); /* opcional */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  padding: 10px;
 }
