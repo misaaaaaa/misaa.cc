@@ -1,7 +1,7 @@
-
 // https://www.youtube.com/watch?v=pohgg2RTtjE
 let freqMax = 150;
 let freqMin = 200;
+
 
 //ancho y alto canvas
 let w = 338;
@@ -33,6 +33,7 @@ var col = 0;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   noCursor();
+
   colorMode(HSB, 360, 100, 100, 100);
 
   //Posición inicial figura
@@ -45,16 +46,44 @@ function setup() {
   dx = round(random(marg, windowWidth - marg));
   dy = round(random(marg, windowHeight - marg));
 
-  // Crear osciladores sin iniciar
-  osc1 = new p5.SinOsc();
-  osc2 = new p5.SinOsc();
-  osc3 = new p5.SinOsc();
-  osc4 = new p5.SinOsc();
+  //audio
+  osc1 = new p5.SinOsc(); // set frequency and type
+  osc1.amp(0.2);
+  osc1.start();
+
+  osc2 = new p5.SinOsc(); // set frequency and type
+  osc2.amp(0.2);
+  osc2.start();
+
+  osc3 = new p5.SinOsc(); // set frequency and type
+  osc3.amp(0.2);
+  osc3.start();
+
+  osc4 = new p5.SinOsc(); // set frequency and type
+  osc4.amp(0.2);
+  osc4.start();
+
+
+}
+
+function touchStarted() {
+  if (!audioStarted) {
+    let audioContext = getAudioContext(); // obtiene el contexto de audio
+    audioContext.resume().then(() => { // desbloquea el contexto de audio
+      osc1.start();     // inicia el oscilador
+      osc1.amp(0.2, 0.5); // con fade
+      audioStarted = true;
+      console.log("Audio activado");
+    }).catch((err) => {
+      console.error("Error al activar el audio:", err);
+    });
+  }
 }
 
 function draw() {
-    background(col, 23, 99);
- //frame rate sin sacar el framerate
+  background(col, 23, 99);
+
+  //frame rate sin sacar el framerate
   var x = frameCount % 1;
   if (x == 0) {
     tik = 1;
@@ -196,29 +225,30 @@ function draw() {
 
 
 
-}
+  // textSize(20);
+  // fill(0, 102, 153);
+  // text("a", ax, ay);
+  // text("b", bx, by);
+  // text("c", cx, cy);
+  // text("d", dx, dy);
 
-function touchStarted() {
-  if (!audioStarted) {
-    userStartAudio();
+  //   textSize(20);
+  //  fill(0, 102, 153);
+  // text(frecu1, windowWidth/4, windowHeight/4 );
+  // fill(0, 102, 153);
+  // text(frecu2, windowWidth/4, windowHeight/4 + 20);
+  // fill(0, 102, 153);
+  // text(frecu3, windowWidth/4, windowHeight/4+ 40);
+  // fill(0, 102, 153);
+  // text(frecu4, windowWidth/4, windowHeight/4 + 60);
 
-    osc1.freq(220);
-    osc1.amp(0.2);
-    osc1.start();
+  //   text(ampli1, windowWidth/4, windowHeight/4 + 100);
+  // fill(0, 102, 153);
+  // text(ampli2, windowWidth/4, windowHeight/4 + 120);
+  // fill(0, 102, 153);
+  // text(ampli3, windowWidth/4, windowHeight/4+ 140);
+  // fill(0, 102, 153);
+  // text(ampli4, windowWidth/4, windowHeight/4 + 160);
+ 
 
-    osc2.freq(300);
-    osc2.amp(0.2);
-    osc2.start();
-
-    osc3.freq(250);
-    osc3.amp(0.2);
-    osc3.start();
-
-    osc4.freq(180);
-    osc4.amp(0.2);
-    osc4.start();
-
-    audioStarted = true;
-    console.log("✅ AudioContext activado y osciladores iniciados.");
-  }
 }
