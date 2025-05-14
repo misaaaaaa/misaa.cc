@@ -239,3 +239,30 @@ function touchStarted() {
     console.log("✅ AudioContext activado y osciladores iniciados.");
   }
 }
+
+function mousePressed() {
+  if (!audioStarted) {
+   fill(360,100,100,100); // Set text color to white
+     noCursor();
+    userStartAudio();
+
+    osc1.freq(220);
+    osc1.amp(0.2);
+    osc1.start();
+
+    osc2.freq(300);
+    osc2.amp(0.2);
+    osc2.start();
+
+    osc3.freq(250);
+    osc3.amp(0.2);
+    osc3.start();
+
+    osc4.freq(180);
+    osc4.amp(0.2);
+    osc4.start();
+
+    audioStarted = true;
+    console.log("✅ AudioContext activado y osciladores iniciados.");
+  }
+}
