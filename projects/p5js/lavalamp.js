@@ -13,6 +13,8 @@ let ax, ay, bx, by, cx, cy, dx, dy;
 //márgen rebote
 var marg = 1;
 
+let click = "click para comenzar audio";
+
 //Frame y direcciones de movimiento
 var tik = 0;
 var dirax = 1;
@@ -32,7 +34,7 @@ var col = 0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  noCursor();
+ 
   colorMode(HSB, 360, 100, 100, 100);
 
   //Posición inicial figura
@@ -194,12 +196,27 @@ function draw() {
   let panning4 = map(dx, 0, windowWidth, 1.0, -1.0);
   osc4.pan(panning4);
 
+ textSize(20);
+//   fill(0, 102, 153);
+//   text("a", ax, ay);
+//   text("b", bx, by);
+//   text("c", cx, cy);
+//   text("d", dx, dy);
 
+  if (audioStarted == 0){
+    fill(360, 100, 100, 100); // Set text color to white
+    textSize(20);
+    textAlign(CENTER);
+    text(click, mouseX,mouseY);
+
+  }
 
 }
 
 function touchStarted() {
   if (!audioStarted) {
+   fill(360,100,100,100); // Set text color to white
+     noCursor();
     userStartAudio();
 
     osc1.freq(220);
