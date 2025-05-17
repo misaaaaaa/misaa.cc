@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>misaa - ritmo/etc</title>
+    <title>misaa - ruidoRupestre</title>
     <meta charset="UTF-8">
     <meta name="description" content="Matías Serrano Acevedo - Sonido, Arte & Tecnología">
     <meta name="keywords" content="portfolio, riddle, onepage, creative, html">
@@ -77,7 +77,7 @@
             <div class="col-lg-5 col-md-5">
 
                 <!-- Title -->
-                <h1 class="col-lg-12">ritmo/etc</h1>
+                <h1 class="col-lg-12">Ruido rupestre / Tarjeta de presentación</h1>
 
                 <!-- Author -->
                 <!--
@@ -90,23 +90,27 @@ by
                 <hr>
 
                 <!-- Date/Time -->
-                <p>2023</p>
+                <p>2025</p>
 
                 <hr>
 
                 <!-- Preview Image -->
-                <img class="img-fluid rounded" src="../img/electronica/es_clo3.jpg" alt="">
-                <p class="small">Foto: Clo Rojo</p>
+                <img class="img-fluid rounded" src="https://github.com/misaaaaaa/ruidoRupestre/raw/main/pcb_front.jpg"
+                    alt="">
+                <!-- <p class="small">Foto: Clo Rojo</p> -->
 
                 <hr>
 
                 <!-- CREDITOS/INFORMACION BASICA -->
                 <p>
-                    Sintetizador experimental basado en circuito integrado VCO CD4046
+                    Circuito activador de relay en base a 555 en modo astable y control PWM
+                    <br>
+                    También utilizada en obra "<a href="../projects/untrazoeneloido.html">Un trazo en el oído</a>" (MAC,
+                    2025), conectando su salida en serie para
+                    activar/desactivar una bobina que generaba un feedback electromagnético
+                </p>
 
-
-
-                    <hr>
+                <hr>
 
 
 
@@ -117,12 +121,14 @@ by
             <div class="col-lg-7 col-md-7 pt-4">
 
 
-                <div style="padding:56.25% 0 0 0;position:relative;"><iframe
-                        src="https://player.vimeo.com/video/872739183?badge=0&amp;autopause=0&amp;quality_selector=1&amp;progress_bar=1&amp;player_id=0&amp;app_id=58479"
-                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-                        style="position:absolute;top:0;left:0;width:100%;height:100%;" title="ritmo_etc"></iframe></div>
-                <script src="https://player.vimeo.com/api/player.js"></script>
+                <img class="img-fluid rounded" src="https://github.com/misaaaaaa/ruidoRupestre/raw/main/layout_back.png"  alt="">
 
+
+                <!-- <iframe width=" 100%" height="315"
+                    src="https://www.youtube.com/embed/sprBOqf9Ims?si=W_C-LcVvA_zlI0op" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
                 <hr>
 
@@ -134,26 +140,42 @@ by
 
 
                 <!-- <div class="buttons">
-                    <button class="site-btn btn-line mr-4 mb-4 col-lg-12 col-md-8"> -->
+                                    <button class="site-btn btn-line mr-4 mb-4 col-lg-12 col-md-8"> -->
 
-                        <p>Sintetizador de onda cuadrada con VCO basado en IC CD4046</p>
-                        <p>Modulación de frecuencia con LDR</p>
 
-                        <p>Secuenciador de activación de 8 pasos</p>
-                        <p>2 perillas de frecuencia permiten determinar frecuencia cuando el nivel del secuenciador es
-                            bajo (low) y alto (high)</p>
-                        <p>Generación de clock propio.</p>
-                        <p>Clock out saca el clock propio. Si hay algo conectado en Clock IN, enviará ese.</p>
-                        <p>Sincronización externa por medio de pulsos de 0,7 v o más</p>
-                        <p>Filtro low-pass</p>
-                        <p>Salida de línea (1v)</p>
 
-                    <!-- </button> -->
+                
+<p>Control de frecuencia y ciclo de trabajo para encendido y apagado de relés u otro tipo de señales de driver
+</p>
+    
+   <p> Con Jumper en EN, se habilita relé</p>
 
-                    <img class="img-fluid rounded" src="../img/electronica/es_1.jpg" alt="">
-                    <p class="small">Foto:Felipe Arancibia y Tomás Montealegre</p>
-                    <img class="img-fluid rounded pt-3"
-                        src="https://github.com/misaaaaaa/ritmo_etc/raw/main/ritmoetc_schematic_v1_chunks.png" alt="">
+<p>    Se pueden conectar otro tipo de motores conectados a DRIVE (con el cuidado de tener desconectado el jumper EN)
+</p>
+
+<p>    En PWM OUT se obtiene la salida directamente del control a través del 555
+</p>
+
+<p>    A través del jack de audio se pueden enviar señales de onda cuadrada que gatillen el relé/motor
+</p>
+<p>    Solo se debe instalar uno de los 3 condensadores para controlar la velocidad: C7 para frecuencias altas, C6 para cambios entre 15-30 segundos (100uF), C1 para tiempos mucho mas lentos (más de 1 min)
+</p>
+<p>    Se puede estimar el timing máximo y mínimo de salida con la calculadora de modo astable, asumiendo:
+</p>       
+
+<p> <li>R1 de 1k (tiempo mínimo) o 100k (tiempo máximo)</li></p>
+
+        <p><li>R2 de 100k</li></p>
+        <p><li>C de tamaño de preferencia (poblando C1, C6 o C7)</li></p>
+
+
+                <!-- </button> -->
+                <!-- <p class="small">*Llamar al sintetizador 1byte es un error conceptual, ya que trabaja con 3 bits y no con 8. Aunque sí utiliza 8 potenciómetros y con algo de flexibilidad mental podríamos decir que 8 = byte.</p> -->
+
+                <!-- <img class="img-fluid rounded" src="../img/electronica/1bd_back.jpeg" alt=""> -->
+                <!-- <p class="small">Foto:Felipe Arancibia y Tomás Montealegre</p> -->
+                <img class="img-fluid rounded pt-3"
+                    src="https://github.com/misaaaaaa/ruidoRupestre/raw/main/layout_front.png" alt="">
 
 
 
@@ -169,32 +191,32 @@ by
                 <!-- <a href="https://github.com/22bits/Matrinicas/blob/master/4sisterSystem/descripcion_pines.pdf" target="_blank" class="site-btn">Manual de uso de pines</a> -->
 
 
-                <a href="https://github.com/misaaaaaa/ritmo_etc" target="_blank" class="site-btn">GitHub</a>
-                <a href="https://github.com/misaaaaaa/ritmo_etc/blob/main/ritmoetc_schematic_color_v1.pdf"
-                    target="_blank" class="site-btn">Esquemático</a>
-                <a href="https://github.com/misaaaaaa/ritmo_etc/blob/main/bom.pdf" target="_blank"
+                <a href="https://github.com/misaaaaaa/transistoresDeclaman" target="_blank" class="site-btn">GitHub</a>
+                <a href="https://github.com/misaaaaaa/transistoresDeclaman/blob/main/sch.pdf" target="_blank"
+                    class="site-btn">Esquemático</a>
+                <a href="https://github.com/misaaaaaa/transistoresDeclaman?tab=readme-ov-file#bom" target="_blank"
                     class="site-btn">BOM</a>
                 <!-- <a href="https://github.com/22bits/Matrinicas/blob/master/4sisterSystem/conexiones_sugeridas.png?raw=true" target="_blank" class="site-btn">Conexiones útiles</a> -->
 
 
 
                 <hr>
-                <h4 class="pb-3">Taller: Electrones sónicos</h4>
-                <p>Realizado en agosto de 2023 en MAC Quinta Normal, en el marco de las actividades del <a
-                        href="https://mac.uchile.cl/wp-content/uploads/2023/08/ARS_ES.pdf">Programa de extensión del
-                        Festival Ars Electronica</a></p>
-                <img class="img-fluid rounded" src="../img/electronica/es_0.jpg" alt="">
-                <p class="small">Foto:Felipe Arancibia y Tomás Montealegre</p>
-                <img class="img-fluid rounded" src="../img/electronica/es_2.jpg" alt="">
-                <p class="small">Foto:Felipe Arancibia y Tomás Montealegre</p>
-                <img class="img-fluid rounded" src="../img/electronica/es_clo1.jpg" alt="">
-                <p class="small">Foto:Clo Rojo</p>
-                <img class="img-fluid rounded" src="../img/electronica/es_clo2.jpg" alt="">
-                <p class="small">Foto:Clo Rojo</p>
-
-                <hr>
+                <!-- <h4 class="pb-3">Taller: Electrones sónicos</h4>
+  <p>Realizado en agosto de 2023 en MAC Quinta Normal, en el marco de las actividades del <a href="https://mac.uchile.cl/wp-content/uploads/2023/08/ARS_ES.pdf">Programa de extensión del Festival Ars Electronica</a></p>
+<img class="img-fluid rounded" src="../img/electronica/es_0.jpg" alt="">
+  <p class="small">Foto:Felipe Arancibia y Tomás Montealegre</p>
+<img class="img-fluid rounded" src="../img/electronica/es_2.jpg" alt="">
+  <p class="small">Foto:Felipe Arancibia y Tomás Montealegre</p>
+<img class="img-fluid rounded" src="../img/electronica/es_clo1.jpg" alt="">
+  <p class="small">Foto:Clo Rojo</p>
+<img class="img-fluid rounded" src="../img/electronica/es_clo2.jpg" alt="">
+  <p class="small">Foto:Clo Rojo</p> -->
 
 
+
+                <img class="img-fluid rounded" src="../img/electronica/pppp -phantomPowerPiezoPre-_front.png" alt="">
+                <p></p>
+                <img class="img-fluid rounded" src="../img/electronica/pppp -phantomPowerPiezoPre-_back.png" alt="">
 
 
                 <!--          BANDCAMP-->
