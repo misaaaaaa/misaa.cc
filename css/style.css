@@ -27,7 +27,7 @@ h5{
   margin: 0;
   font-weight: 300;
   font-family: 'Baskerville', 'Libre Baskerville', sans-serif;
-},
+}
 h6 {
   color: #001418;
   margin: 0;
@@ -516,11 +516,17 @@ ol {
 .portfolio-item3 {
   display: block;
   width: 100%;
-  aspect-ratio: 2 / 1; /* cuadrado responsivo */
+  aspect-ratio: 4 / 1; /* default: wide banner */
   background-position: center center;
   background-size: cover;
   position: relative;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .portfolio-item3 {
+    aspect-ratio: 1 / 1; /* square on small screens */
+  }
 }
 
 
