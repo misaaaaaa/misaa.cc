@@ -3,6 +3,9 @@
 let freqMax = 150;
 let freqMin = 200;
 
+let prevWidth = 0;
+let prevHeight = 0;
+
 //ancho y alto canvas
 let w = 338;
 let h = 600;
@@ -11,13 +14,13 @@ let h = 600;
 let ax, ay, bx, by, cx, cy, dx, dy;
 
 //márgen rebote
-var marg = 1;
+var marg = 16;
 
 let click = "click para comenzar audio";
 
 //Frame y direcciones de movimiento
 var tik = 0;
-var dirax = 1;
+var dirax = 1; 
 var diray = -1;
 var dirbx = 1;
 var dirby = -1;
@@ -33,6 +36,7 @@ let audioStarted = false;
 var col = 0;
 
 function setup() {
+  frameRate(25);
   createCanvas(windowWidth, windowHeight);
  
   colorMode(HSB, 360, 100, 100, 100);
@@ -210,6 +214,13 @@ function draw() {
     text(click, mouseX,mouseY);
 
   }
+
+  if (prevWidth != windowWidth || prevHeight != windowHeight) {
+    resizeCanvas(windowWidth, windowHeight);
+  }
+
+  prevWidth = windowWidth;
+  prevHeight = windowHeight;
 
 }
 
