@@ -1,14 +1,20 @@
 # Formación
 
-2024 Magíster en Artes Mediales. Facultad de Artes. Universidad de Chile.
+2026 - | Doctorado en Artes y Humanidades. Instituto de Estudios Avanzados. Universidad de Santiago de Chile
 
-2019 Tutoría de Electrónica para Nuevos Medios y Arte Sonoro. Beca Chile Crea. Profesor José Luis Cárdenas
+2021 - 2024 | Magíster en Artes Mediales. Facultad de Artes. Universidad de Chile.
 
-2017 Licenciado en Artes mención Sonido. Facultad de Artes. Universidad de Chile
+2011 - 2016 | Licenciado en Artes mención Sonido. Facultad de Artes. Universidad de Chile
+
+2019 - 2020 | Tutoría de Electrónica para Nuevos Medios y Arte Sonoro. Beca Chile Crea. Profesor José Luis Cárdenas
 
 ## Obras y proyectos
 
 ### Participación en exposiciones
+
+2026 *Llluvia Metropolitana*. Proyecto expositivo de sitio específico junto a Rainer Krause. Texto por Catalina Montero. Galería Metropolitana [Santiago, Chile] ([Comunicado](https://galeriametropolitana.org/expos/llluvia-metropolitana-de-matias-serrano-rainer-krause/))
+
+2025 *La memoria contándole a la luz el sonido de la lluvia.* Parte de exposición “Islas de luz flotan sobre el pasto”, curada por Paola Nava. Galería Cripta [Santiago, Chile] ([Texto](https://aceleracionismo.com/2025/12/22/islas-de-luz-flotan-sobre-el-pasto/))
 
 2025 *oí 1, oí 2, oí 3*. Instalaciones. Parte de exposición “Cuando todas las palabras sean borradas” junto Almendra Díaz, Galería de Artes Visuales UNIACC [Santiago, Chile] ([Prensa](https://www.instagram.com/p/DOCQUSEkawV/))
 
@@ -55,6 +61,8 @@
 2017 Festival Tsonami [Valparaíso, Chile] - Residencia de formación
 
 ### Conciertos, intervenciones y performances
+
+20260130 Concierto cierre exposición Llluvia Metropolitana + aya yay. Galería Metropolitana.
 
 20241115 Líneas de fuerza (+ visuales por @sutilmetal). Museo de la Educación Gabriela Mistral, Festival Onda Expansiva. ([Prensa](https://www.latercera.com/culto/2024/11/12/i-festival-onda-expansiva-reune-a-mas-de-30-artistas-mediales-en-el-museo-de-la-educacion-gabriela-mistral/)) ([Registro](https://www.youtube.com/watch?v=3PKbZ9IGCyU))
 
@@ -158,6 +166,8 @@ Bárbara Molina y Matías Serrano, “Ningún ruido es inocente”. Intersecta (
 
 ### Becas, premios y fondos obtenidos
 
+2026 Beca de arancel y mantención. Doctorado en Artes y Humanidades. Universidad de Santiago de Chile
+
 2023 Premio del público. XVI Premio Arte Joven MAVI-UC. Obra “La memoria contándole a la luz el sonido de la lluvia”
 
 2019 Beca Chile Crea / Fondos Ministerio de las Culturas Chile. Proyecto “Tutoría de electrónica para los nuevos medios y el arte sonoro” con el profesor José Luis Cárdenas
@@ -167,6 +177,10 @@ Bárbara Molina y Matías Serrano, “Ningún ruido es inocente”. Intersecta (
 2017 3er lugar categoría estudiantes. 6° Concurso Matilde Pérez. Obra “Ensayo de Horizontalidad”
 
 ### Charlas, seminarios y presentaciones en coloquios
+
+20251205 *Prácticas sonoras más allá de la correlación*. 1er Simposio Arte Sonoro Latinoamericano. Universidad Autónoma Metropolitana Unidad Lerma, Ciudad de México 
+
+20251113 *La materialización de lo virtual*. Participación en coloquio sobre arte y pandemia moderado por Tatiana Julio, Plataforma Arte & Medios. Publicación realizada en el marco de la 17 Bienal de Artes Mediales. Virtual. ([Registro](https://www.youtube.com/watch?v=_-ZQS7ogFeI))
 
 20250827 *Tiempo y materia sónica: hacia una definición no-negativa de Arte Sonoro*. Coloquio Posthumanamente hablando, organizado por Plataforma Arte & Medios. MAC Parque Forestal ([Cronograma](https://arteymedios.org/programa-tercer-coloquio-posthumanamente-hablando/))
 
@@ -258,6 +272,8 @@ Bárbara Molina y Matías Serrano, “Ningún ruido es inocente”. Intersecta (
 
 ### Docencia en talleres, diplomados y educación no formal
 
+2025 Arte y tecnología: Rudimentos electrónicos aplicados. Programa de Estudios Libres Museo de Arte Contemporáneo (3 sesiones), junto a María Ignacia Valdebenito. Santiago, Chile.
+
 2025 Electrónica en las artes visuales y sonoras. Programa de formación MicrobiomAustral, Liquen Lab (5 sesiones). Punta Arenas, Chile ([Registro](https://www.instagram.com/p/DMfp1fbIZmd/?img_index=1))
 
 2025 Diseño y ensamblaje de un sistema electromecánico experimental. Laboratorio de Artes Mediales Hub Creativo (4 sesiones). Valparaíso, Chile. ([Registro](https://www.instagram.com/p/DL2w8eAx7_I/?img_index=1))
@@ -297,6 +313,8 @@ Bárbara Molina y Matías Serrano, “Ningún ruido es inocente”. Intersecta (
 ## Experiencia Laboral
 
 ### Artes Visuales
+
+2025 Cómo armar una máquina en 10 pasos | art. M. Ignacia C. X. Valdebenito G. [Expo MAC PF] - Producción técnica 
 
 2024 Acá, lejos | art. Angie Saiz [Expo Departamento Jota] - Producción técnica 
 
