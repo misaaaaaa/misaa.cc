@@ -166,7 +166,7 @@ Bárbara Molina y Matías Serrano, “Ningún ruido es inocente”. Intersecta (
 
 ### Becas, premios y fondos obtenidos
 
-2026 Beca de arancel y mantención. Doctorado en Artes y Humanidades. Universidad de Santiago de Chile
+2026 Beca completa (arancel y mantención). Doctorado en Artes y Humanidades. Universidad de Santiago de Chile
 
 2023 Premio del público. XVI Premio Arte Joven MAVI-UC. Obra “La memoria contándole a la luz el sonido de la lluvia”
 
@@ -200,11 +200,11 @@ Bárbara Molina y Matías Serrano, “Ningún ruido es inocente”. Intersecta (
 
 ### Otros proyectos
 
-2023 - actualidad. Núcleo de Artes Sonoras. Investigación y promoción de las artes sonoras dentro de las Artes Visuales. Departamento de Artes Visuales, U. de Chile.
+2023 - actualidad. Núcleo de Artes Sonoras. Investigación y promoción de las artes sonoras dentro de las Artes Visuales. Departamento de Artes Visuales, U. de Chile [[bandcamp](https://nucleoartessonoras.bandcamp.com/)]
 
 2025 - 2026. Aproximaciones subacuáticas. Proyecto de creación e investigación interdisciplinar (arte sonoro y nado). Proyecto Fondart dirigido por Fernanda Fábrega.
 
-2024 Árboles ciudadanos. Proyecto de creación e investigación interdisciplinar (electrónica, sonido, teatro y espacio público) en torno a los árboles en entornos urbanos. Producido por compañía Organismo Teatro
+2024 Árboles ciudadanos. Proyecto de creación e investigación interdisciplinar (electrónica, sonido, teatro y espacio público) en torno a los árboles en entornos urbanos. Producido por compañía Organismo Teatro. [[web](https://arbolesciudadanos.cl/)]
 
 2020 Ruido propio. Núcleo de investigación de memoria e identidad sonora dirigido por Dra. Carla Badani. Departamento de Sonido, Universidad de Chile.
 
@@ -217,6 +217,14 @@ Bárbara Molina y Matías Serrano, “Ningún ruido es inocente”. Intersecta (
 ## Docencia
 
 ### Pregrado
+
+2026 Pensamiento Computacional. Diseño, Universidad Diego Portales. Semestre 3 (1 sección)
+
+2026 Taller vertical de Máquinas Electrónicas (+ Aarón Montoya). Diseño, Universidad Diego Portales. Semestre 7 (1 sección)
+
+2026 Aplicaciones Tecnológicas 3: Objeto. Artes Visuales, UNIACC. Semestre 7 (1 sección)
+
+2026 Laboratorio de Arte y Electrónica. Artes Visuales, Universidad Diego Portales. Semestre 5 (1 sección)
 
 2025 Taller complementario de electrónica: del dato al objeto. Artes Visuales, Universidad de Chile. Semestre 6 (1 sección)
 
@@ -271,6 +279,8 @@ Bárbara Molina y Matías Serrano, “Ningún ruido es inocente”. Intersecta (
 2023 Taller Complementario I: Electrónica en Soportes Alternativos. 5° semestre Artes Visuales. U. de Chile
 
 ### Docencia en talleres, diplomados y educación no formal
+
+2025 Imagen y sonido expandido. Diplomado en Fotografía y Arte Contemporáneo. Departamento de Artes Visuales, Universidad de Chile (3 sesiones). Santiago, Chile.
 
 2025 Arte y tecnología: Rudimentos electrónicos aplicados. Programa de Estudios Libres Museo de Arte Contemporáneo (3 sesiones), junto a María Ignacia Valdebenito. Santiago, Chile.
 
