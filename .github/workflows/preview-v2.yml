@@ -1,0 +1,45 @@
+name: Deploy v2 preview
+
+on:
+  push:
+    branches:
+      - v2
+
+permissions:
+  contents: write
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout v2
+        uses: actions/checkout@v4
+        with:
+          ref: v2
+          path: v2-content
+
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main-content
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sync v2 into main/v2 folder
+        run: |
+          rm -rf main-content/v2
+          mkdir -p main-content/v2
+          rsync -a \
+            --exclude='.git' \
+            --exclude='CNAME' \
+            --exclude='.github' \
+            v2-content/ main-content/v2/
+
+      - name: Commit and push to main
+        run: |
+          cd main-content
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add v2/
+          git diff --staged --quiet || git commit -m "chore: update v2 preview [skip ci]"
+          git push
