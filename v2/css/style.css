@@ -215,74 +215,6 @@ ol {
   color: #fff;
 }
 
-/*===  Accordion  ===*/
-.accordion-area .panel {
-  margin-bottom: 30px;
-}
-
-.accordion-area .panel-header {
-  background: #000;
-  color: #fff;
-  display: block;
-  padding: 12px 50px;
-  padding-left: 30px;
-  font-size: 14px;
-  font-weight: 600;
-  position: relative;
-  border: 2px solid #000;
-  -webkit-transition: all 0.4s ease-out 0s;
-  -o-transition: all 0.4s ease-out 0s;
-  transition: all 0.4s ease-out 0s;
-}
-
-.accordion-area .panel-header.active {
-  background: transparent;
-  color: #000;
-}
-
-.accordion-area .panel-header.active .panel-link:after {
-  content: "-";
-  color: #000;
-}
-
-.accordion-area .panel-header.active .panel-link.collapsed:after {
-  content: "+";
-}
-
-.accordion-area .panel-link {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 100%;
-  width: 50px;
-  border: none;
-  cursor: pointer;
-  background: transparent;
-}
-
-.accordion-area .panel-body p {
-  font-size: 14px;
-  margin-bottom: 0;
-  padding-top: 25px;
-}
-
-.accordion-area .panel-body {
-  padding: 0 5px;
-}
-
-.accordion-area .panel-link:after {
-  content: "+";
-  position: absolute;
-  left: 50%;
-  font-size: 16px;
-  font-weight: 700;
-  top: 50%;
-  color: #fff;
-  line-height: 16px;
-  margin-top: -8px;
-  margin-left: -4px;
-}
-
 /*===  Tab  ===*/
 .tab-element .nav-tabs {
   border-bottom: none;
@@ -320,54 +252,6 @@ ol {
 
 .tab-element .tab-pane p {
   font-size: 14px;
-}
-
-.circle-progress {
-  text-align: center;
-  position: relative;
-}
-
-.circle-progress canvas {
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-.circle-progress .progress-info {
-  position: absolute;
-  width: 100%;
-  top: 30%;
-}
-
-.circle-progress .progress-info h2 {
-  font-size: 36px;
-}
-
-.circle-progress .progress-info p {
-  color: #373737;
-  font-size: 16px;
-  line-height: normal;
-}
-
-/*===  Icon Box  ===*/
-.icon-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.icon-box .icon h2 {
-  font-size: 60px;
-}
-
-.icon-box .icon-box-content {
-  padding-left: 25px;
-  padding-top: 10px;
-}
-
-.icon-box .icon-box-content h3 {
-  font-size: 24px;
-  margin-bottom: 25px;
 }
 
 /*------------------------
@@ -716,51 +600,6 @@ ol {
 }
 
 /*------------------------
-    Blog Page
---------------------------*/
-.blog-item {
-  margin-bottom: 70px;
-}
-
-.blog-item .read-more {
-  color: #000;
-  position: relative;
-  display: inline-block;
-  padding-bottom: 5px;
-  line-height: 18px;
-  font-size: 18px;
-}
-
-.blog-item .read-more:after {
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background: #000;
-}
-
-.thumb {
-  margin-bottom: 30px;
-}
-
-.blog-content h2 {
-  font-size: 24px;
-  margin-bottom: 15px;
-}
-
-.blog-content .blog-meta {
-  font-size: 13px;
-  color: #979797;
-  margin-bottom: 30px;
-}
-
-.blog-content p {
-  margin-bottom: 30px;
-}
-
-/*------------------------
     Contact Page
 --------------------------*/
 .contect-tect {
@@ -821,12 +660,6 @@ ol {
 /* ===========================
   Responsive
 ==============================*/
-@media only screen and (max-width: 1448px) {
-  .home-2.container {
-    width: auto;
-  }
-}
-
 /* Medium screen : 992px. */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .portfolio-item {
@@ -876,12 +709,6 @@ ol {
   .main-menu ul li:last-child a {
     border-bottom: none;
   }
-  .home-2 {
-    text-align: left;
-  }
-  .home-2 .main-menu {
-    top: 99px;
-  }
   .nav-switch {
     position: absolute;
     right: 25px;
@@ -917,17 +744,6 @@ ol {
 
 }
 
-.importantRow{
-  height: 50vh;
-  background-color: gray;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-}
-
-.h3var{
-  color: white;
-}
-
 .video-container {
     /* width is set as 100% here. any width can be specified as per requirement */
     width: 100%;
@@ -961,158 +777,3 @@ ol {
 }
 
 
-.custom-banner {
-  width: 100%;
-  aspect-ratio: 3 / 1;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.custom-banner .pi-inner {
-  opacity: 0;
-  font-size: 30px;
-  font-weight: 400;
-  position: absolute;
-  left: 50px;
-  bottom: 50px;
-  color: #fff;
-  letter-spacing: 10px;
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-
-}
-
-.custom-banner:hover .pi-inner {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-.custom-banner:hover .pi-inner h2 {
-  opacity: 1;
-  letter-spacing: 0;
-}
-
-
-
-
-/* El banner (aspect ratio 3:1 o el que prefieras) */
-.portfolio-item.banner-item {
-  width: 100%;
-  aspect-ratio: 3 / 1;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  margin-bottom: 20px;
-}
-
-/* Elementos cuadrados */
-.portfolio-item.square-item {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  margin-bottom: 20px;
-}
-
-/* Fondo con imagen cargada vía JS o atributo */
-.set-bg {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-/* Banner: 3:1 ratio */
-.banner-item {
-  aspect-ratio: 3 / 1;
-  width: 100%;
-  position: relative;
-  margin-bottom: 20px;
-}
-
-/* Cuadrados */
-.square-item {
-  aspect-ratio: 1 / 1;
-  width: 100%;
-  position: relative;
-  margin-bottom: 20px;
-}
-
-// ...existing code...
-
-/* Carousel Styles */
-.carousel-container {
-  position: relative;
-  width: 100%;
-  max-width: 800px;
-  margin: 2rem auto;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.carousel-slides {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.carousel-slide {
-  min-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.carousel-slide img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-}
-
-.carousel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 12px 16px;
-  cursor: pointer;
-  font-size: 24px;
-  z-index: 10;
-  transition: background-color 0.3s;
-  border-radius: 4px;
-}
-
-.carousel-btn:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.carousel-btn.prev {
-  left: 10px;
-}
-
-.carousel-btn.next {
-  right: 10px;
-}
-
-.carousel-dots {
-  text-align: center;
-  padding: 15px 0;
-}
-
-.carousel-dot {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ccc;
-  margin: 0 6px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.carousel-dot.active {
-  background-color: #333;
-}
