@@ -27,12 +27,6 @@ $(window).on('load', function() {
 
 (function($) {
 
-	document.querySelectorAll('.set-bg').forEach(el => {
-		const bg = el.getAttribute('data-setbg');
-		el.style.backgroundImage = `url(${bg})`;
-	  });
-	  
-
 	/*------------------
 		Navigation
 	--------------------*/
@@ -44,12 +38,29 @@ $(window).on('load', function() {
 
 
 	/*------------------
-		Background set
+		Background set (lazy)
 	--------------------*/
-	$('.set-bg').each(function() {
-		var bg = $(this).data('setbg');
-		$(this).css('background-image', 'url(' + bg + ')');
-	});
+	function applyBg(el) {
+		var bg = el.getAttribute('data-setbg');
+		if (bg) el.style.backgroundImage = 'url(' + bg + ')';
+	}
+
+	if ('IntersectionObserver' in window) {
+		var bgObserver = new IntersectionObserver(function(entries) {
+			entries.forEach(function(entry) {
+				if (entry.isIntersecting) {
+					applyBg(entry.target);
+					bgObserver.unobserve(entry.target);
+				}
+			});
+		}, { rootMargin: '300px' });
+
+		document.querySelectorAll('.set-bg').forEach(function(el) {
+			bgObserver.observe(el);
+		});
+	} else {
+		document.querySelectorAll('.set-bg').forEach(applyBg);
+	}
 
 
 
