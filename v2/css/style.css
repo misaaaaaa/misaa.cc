@@ -777,3 +777,9 @@ ol {
 }
 
 
+
+/* ===========================
+  EXPERIMENTO: todo en minúsculas
+  Para revertir: eliminar estas 4 líneas
+============================== */
+* { text-transform: lowercase; }
