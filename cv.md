@@ -202,7 +202,7 @@ Bárbara Molina y Matías Serrano, “Ningún ruido es inocente”. Intersecta (
 
 2023 - actualidad. Núcleo de Artes Sonoras. Investigación y promoción de las artes sonoras dentro de las Artes Visuales. Departamento de Artes Visuales, U. de Chile [[bandcamp](https://nucleoartessonoras.bandcamp.com/)]
 
-2025 - 2026. Aproximaciones subacuáticas. Proyecto de creación e investigación interdisciplinar (arte sonoro y nado). Proyecto Fondart dirigido por Fernanda Fábrega.
+2025 - 2026. Aproximaciones subacuáticas. Proyecto de creación e investigación interdisciplinar (arte sonoro y nado). Proyecto Fondart dirigido por Fernanda Fábrega. [[web](https://clubsonorodeportivo.cl)]
 
 2024 Árboles ciudadanos. Proyecto de creación e investigación interdisciplinar (electrónica, sonido, teatro y espacio público) en torno a los árboles en entornos urbanos. Producido por compañía Organismo Teatro. [[web](https://arbolesciudadanos.cl/)]
 
