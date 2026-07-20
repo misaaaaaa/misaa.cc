@@ -814,6 +814,9 @@ ol {
   opacity: 0.65;
   font-weight: 600 !important;
   letter-spacing: 0.05em;
+  margin-left: 8px !important;
+  margin-right: 0 !important;
+  font-size: 13px !important;
 }
 .lang-switch:hover {
   opacity: 1;
