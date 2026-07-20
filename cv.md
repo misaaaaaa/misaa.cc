@@ -62,6 +62,8 @@
 
 ### Conciertos, intervenciones y performances
 
+20260710 Concierto "Repertorio y negociación". Curso Improvisación Doctorado en Artes y Humanidades. IDEA-USACH. ([Registro](https://www.youtube.com/watch?v=V07hX_IAGMM))
+
 20260130 Concierto cierre exposición Llluvia Metropolitana + aya yay. Galería Metropolitana.
 
 20241115 Líneas de fuerza (+ visuales por @sutilmetal). Museo de la Educación Gabriela Mistral, Festival Onda Expansiva. ([Prensa](https://www.latercera.com/culto/2024/11/12/i-festival-onda-expansiva-reune-a-mas-de-30-artistas-mediales-en-el-museo-de-la-educacion-gabriela-mistral/)) ([Registro](https://www.youtube.com/watch?v=3PKbZ9IGCyU))
