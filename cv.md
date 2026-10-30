@@ -12,9 +12,9 @@
 
 ### Participación en exposiciones
 
-2026 *devuélveme a nuestro lado del océano*. Parte de exposición "FFAST", curada por Paola Nava. NIDO Lucía([Afiche](https://www.instagram.com/p/DduYNoMgGth/))
+2026 *devuélveme a nuestro lado del océano*. Parte de exposición "FFAST", curada por Paola Nava. NIDO Lucía ([Afiche](https://www.instagram.com/p/DduYNoMgGth/))
 
-2026 *we*. Parte de exposición "Signa", curada por André Strahinja Bousquet. Facultad de Artes, UNIACC([Afiche](https://www.instagram.com/p/DerseiCm1w4/))
+2026 *we*. Parte de exposición "Signa", curada por André Strahinja Bousquet. Facultad de Artes, UNIACC ([Afiche](https://www.instagram.com/p/DerseiCm1w4/))
 
 2026 *Llluvia Metropolitana*. Proyecto expositivo de sitio específico junto a Rainer Krause. Texto por Catalina Montero. Galería Metropolitana [Santiago, Chile] ([Comunicado](https://galeriametropolitana.org/expos/llluvia-metropolitana-de-matias-serrano-rainer-krause/))
 
