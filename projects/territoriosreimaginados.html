@@ -266,22 +266,34 @@
 
         <p>Dibujos de las obras, acompañados por líneas de kit de poesía magnética diseñado a partir de las palabras clave de nuestras conversaciones con Ciel y del texto curatorial. Este ejercicio buscaba diversificar el modo de nombrar las obras, ya que no conseguimos darles un título específico a cada una.</p>
 
-        <img loading="lazy" class="img-fluid rounded col-lg-6 col-sm-6"
-          src="../img/projects/dock-basel-2026/dock-dibujo1.jpg" alt="">
-        <img loading="lazy" class="img-fluid rounded col-lg-6 col-sm-6"
-          src="../img/projects/dock-basel-2026/dock-dibujo2.jpg" alt="">
-        <img loading="lazy" class="img-fluid rounded col-lg-6 col-sm-6"
-          src="../img/projects/dock-basel-2026/dock-dibujo3.jpg" alt="">
-        <img loading="lazy" class="img-fluid rounded col-lg-6 col-sm-6"
-          src="../img/projects/dock-basel-2026/dock-dibujo4.jpg" alt="">
-        <img loading="lazy" class="img-fluid rounded col-lg-6 col-sm-6"
-          src="../img/projects/dock-basel-2026/dock-dibujo5.jpg" alt="">
-        <img loading="lazy" class="img-fluid rounded col-lg-6 col-sm-6"
-          src="../img/projects/dock-basel-2026/dock-dibujo6.jpg" alt="">
-        <img loading="lazy" class="img-fluid rounded col-lg-6 col-sm-6"
-          src="../img/projects/dock-basel-2026/dock-dibujo7.jpg" alt="">
-        <img loading="lazy" class="img-fluid rounded col-lg-6 col-sm-6"
-          src="../img/projects/dock-basel-2026/dock-dibujo8.jpg" alt="">
+        <div class="img-mosaic">
+          <a href="../img/projects/dock-basel-2026/dock-dibujo1.jpg"><img loading="lazy"
+              src="../img/projects/dock-basel-2026/dock-dibujo1.jpg" alt=""></a>
+          <a href="../img/projects/dock-basel-2026/dock-dibujo2.jpg"><img loading="lazy"
+              src="../img/projects/dock-basel-2026/dock-dibujo2.jpg" alt=""></a>
+          <a href="../img/projects/dock-basel-2026/dock-dibujo3.jpg"><img loading="lazy"
+              src="../img/projects/dock-basel-2026/dock-dibujo3.jpg" alt=""></a>
+          <a href="../img/projects/dock-basel-2026/dock-dibujo9.jpg"><img loading="lazy"
+              src="../img/projects/dock-basel-2026/dock-dibujo9.jpg" alt=""></a>
+          <a href="../img/projects/dock-basel-2026/dock-dibujo4.jpg"><img loading="lazy"
+              src="../img/projects/dock-basel-2026/dock-dibujo4.jpg" alt=""></a>
+          <a href="../img/projects/dock-basel-2026/dock-dibujo5.jpg"><img loading="lazy"
+              src="../img/projects/dock-basel-2026/dock-dibujo5.jpg" alt=""></a>
+          <a href="../img/projects/dock-basel-2026/dock-dibujo6.jpg"><img loading="lazy"
+              src="../img/projects/dock-basel-2026/dock-dibujo6.jpg" alt=""></a>
+          <a href="../img/projects/dock-basel-2026/dock-dibujo10.jpg"><img loading="lazy"
+              src="../img/projects/dock-basel-2026/dock-dibujo10.jpg" alt=""></a>
+          <a href="../img/projects/dock-basel-2026/dock-dibujo7.jpg"><img loading="lazy"
+              src="../img/projects/dock-basel-2026/dock-dibujo7.jpg" alt=""></a>
+          <a href="../img/projects/dock-basel-2026/dock-dibujo11.jpg"><img loading="lazy"
+              src="../img/projects/dock-basel-2026/dock-dibujo11.jpg" alt=""></a>
+          <a href="../img/projects/dock-basel-2026/dock-dibujo12.jpg"><img loading="lazy"
+              src="../img/projects/dock-basel-2026/dock-dibujo12.jpg" alt=""></a>
+          <a href="../img/projects/dock-basel-2026/dock-dibujo8.jpg"><img loading="lazy"
+              src="../img/projects/dock-basel-2026/dock-dibujo8.jpg" alt=""></a>
+          <a href="../img/projects/dock-basel-2026/dock-dibujo13.jpg"><img loading="lazy"
+              src="../img/projects/dock-basel-2026/dock-dibujo13.jpg" alt=""></a>
+        </div>
 
         <hr>
 
@@ -388,7 +400,19 @@
   <script src="../js/jquery-2.1.4.min.js" defer></script>
   <script src="../js/bootstrap.min.js" defer></script>
   <script src="../js/mixitup.min.js" defer></script>
+  <script src="../js/magnific-popup.min.js" defer></script>
   <script src="../js/main.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      $('.img-mosaic').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        mainClass: 'img-popup-warp',
+        removalDelay: 400,
+        gallery: { enabled: true, tCounter: '%curr% / %total%' }
+      });
+    });
+  </script>
 </body>
 
 </html>
