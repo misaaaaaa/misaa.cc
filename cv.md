@@ -12,6 +12,10 @@
 
 ### Participación en exposiciones
 
+2026 *devuélveme a nuestro lado del océano*. Parte de exposición "FFAST", curada por Paola Nava. NIDO Lucía([Afiche](https://www.instagram.com/p/DduYNoMgGth/))
+
+2026 *we*. Parte de exposición "Signa", curada por André Strahinja Bousquet. Facultad de Artes, UNIACC([Afiche](https://www.instagram.com/p/DerseiCm1w4/))
+
 2026 *Llluvia Metropolitana*. Proyecto expositivo de sitio específico junto a Rainer Krause. Texto por Catalina Montero. Galería Metropolitana [Santiago, Chile] ([Comunicado](https://galeriametropolitana.org/expos/llluvia-metropolitana-de-matias-serrano-rainer-krause/))
 
 2025 *La memoria contándole a la luz el sonido de la lluvia.* Parte de exposición “Islas de luz flotan sobre el pasto”, curada por Paola Nava. Galería Cripta [Santiago, Chile] ([Texto](https://aceleracionismo.com/2025/12/22/islas-de-luz-flotan-sobre-el-pasto/))
@@ -43,6 +47,8 @@
 2017 *Ensayo de horizontalidad*. Instalación sonora en exposición colectiva (Colectivo 22bits). 6° Concurso de Artes y Tecnologías Digitales en Homenaje a Matilde Pérez. 3er lugar en categoría estudiantes. MAC Quinta Normal [Santiago, Chile] ([Registro](http://misaa.cc/projects/edh.html))
 
 ### Residencias
+
+2026 Territórios Reimaginados: Reclaim Regional [Basel, Suiza] - Residencia artística en DOCK Kunstraum Archiv und Ausleihe, convocado por Museo MAVI UC
 
 2025 Radicante [Estrecho de Magallanes] - Residencia navegable organizada por Liquen LAB
 
@@ -134,6 +140,8 @@
 
 ### Publicaciones sonoras
 
+2026 Nada como una metáfora / Registro concierto creado por Club Sonoro Deportivo. (Sello Archivo Veintidós) ([Enlace](https://archivoveintidos.bandcamp.com/album/nada-como-una-met-fora))
+
 2024 Asintonía / Pieza sonora en colaboración con Lucas Soffia y Mónica Bate / Una sombra persistente (Sello Núcleo de Artes Sonoras). ([Enlace](https://nucleoartessonoras.bandcamp.com/))
 
 2024 milimetrópolis, detalle [1], remix / Remezcla de obra de Rainer Krause / milimetrópolis: intervención (Sello Núcleo de Artes Sonoras) ([Enlace](https://nucleoartessonoras.bandcamp.com/album/milimetr-polis-intervenci-n))
@@ -184,7 +192,7 @@ Bárbara Molina y Matías Serrano, “Ningún ruido es inocente”. Intersecta (
 
 20251113 *La materialización de lo virtual*. Participación en coloquio sobre arte y pandemia moderado por Tatiana Julio, Plataforma Arte & Medios. Publicación realizada en el marco de la 17 Bienal de Artes Mediales. Virtual. ([Registro](https://www.youtube.com/watch?v=_-ZQS7ogFeI))
 
-20250827 *Tiempo y materia sónica: hacia una definición no-negativa de Arte Sonoro*. Coloquio Posthumanamente hablando, organizado por Plataforma Arte & Medios. MAC Parque Forestal ([Cronograma](https://arteymedios.org/programa-tercer-coloquio-posthumanamente-hablando/))
+20250827 *Tiempo y materia sónica: hacia una definición no-negativa de Arte Sonoro*. Coloquio Posthumanamente hablando, organizado por Plataforma Arte & Medios. MAC Parque Forestal ([Registro](https://www.youtube.com/watch?v=pMOZ7MKvgbQ))
 
 20250626 *Diseño de máquinas para arte electrónico*. Discusiones Contemporáneas del Diseño, organizado por Diseño UDP. Palacio Pereira ([Cronograma](https://www.notion.so/CV-12ba3271bffd800bbc1cf7b18d84a309?pvs=21))
 
